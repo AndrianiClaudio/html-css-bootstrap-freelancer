@@ -5,6 +5,9 @@
 .silver{
     background-color: silver
 }
+.fucsia {
+    background-color: fuchsia;
+}
 .hgt-160 {
     height: 160px;
 }
@@ -15,7 +18,7 @@
     background-color: blue;
 }
 #header-jumbo {
-    height: 500px;
+    height: 350px;
     background-color: red;
 }
 
@@ -26,7 +29,7 @@
     }
     #header-jumbo {
         /* ingrandimento jumbo */
-        height: 550px;
+        height: 410px;
         background-color: violet;
     }
 }

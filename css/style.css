@@ -1,3 +1,9 @@
+/* blocchi colorati */
+.pink {
+    background-color: pink;
+}
+/* /blocchi colorati */
+
 #header-top {
     height: 50px;
     background-color: blue;
@@ -11,13 +17,13 @@
 @media (min-width: 768px) { 
     #header-top {
         background-color: green;
-    
     }
     #header-jumbo {
+        /* ingrandimento jumbo */
+        height: 410px;
         background-color: violet;
     }
 }
-
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     #header-top {

@@ -14,6 +14,9 @@
 .silver{
     background-color: silver
 }
+.blue {
+    background-color: lightblue;
+}
 .fucsia {
     background-color: fuchsia;
 }
@@ -21,14 +24,23 @@
     background-color: gold;
     border: 1px solid black;
 }
+.hgt-350 {
+    height: 350px;
+}
+.hgt-80vh {
+    height: 80vh;
+}
 .hgt-50 {
     height: 50px;
 }
 .hgt-180 {
     height: 180px;
 }
+.hMin100px {
+    min-height: 100px;
+}
 .img-portfolio {
-    height: 320px;
+    min-height: 320px;
 }
 /* /blocchi colorati */
 .container-fluid {
@@ -58,6 +70,9 @@ footer {
     #header-jumbo {
         /* ingrandimento jumbo */
         height: calc(var(--jumbo-height) + 50px);
+    }
+    #test > div {
+        margin-right: 3rem;
     }
 }
 /* // Large devices (desktops, 992px and up) */

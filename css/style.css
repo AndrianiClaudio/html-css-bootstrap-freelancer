@@ -6,3 +6,24 @@
     height: 350px;
     background-color: red;
 }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #header-top {
+        background-color: green;
+    
+    }
+    #header-jumbo {
+        background-color: violet;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #header-top {
+        background-color: whitesmoke;
+    }
+    #header-jumbo {
+        background-color: yellow;
+    }
+ }

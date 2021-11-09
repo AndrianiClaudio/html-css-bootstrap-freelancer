@@ -1,3 +1,12 @@
+:root {
+    --header-top-color: #2C3E50;
+    --header-jumbo-color: #1ABC9C;
+    --footer-info-color: #3A546D;
+    --footer-copyright-color: #2C3E50;
+    /* size */
+    --jumbo-height: 400px;
+}
+
 /* blocchi colorati */
 .pink {
     background-color: pink;
@@ -8,37 +17,45 @@
 .fucsia {
     background-color: fuchsia;
 }
-.hgt-160 {
+.gold {
+    background-color: gold;
+}
+.hgt-50 {
+    height: 50px;
+}
+.hgt-180 {
+    height: 180px;
+}
+.img-portfolio {
     height: 160px;
+    border: 1px solid black;
 }
 /* /blocchi colorati */
-
+div.container-fluid {
+    /* rimozione padding */
+    padding-left: 0;
+    padding-right: 0;
+}
+header,
+main,
+footer {
+    width: 100%;
+}
 #header-top {
-    height: 50px;
-    background-color: blue;
+    background-color: var(--header-top-color);
 }
 #header-jumbo {
-    height: 350px;
-    background-color: red;
+    height: var(--jumbo-height);
+    background-color: var(--header-jumbo-color);
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    #header-top {
-        background-color: green;
-    }
     #header-jumbo {
         /* ingrandimento jumbo */
-        height: 410px;
-        background-color: violet;
+        height: calc(var(--jumbo-height) + 50px);
     }
 }
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    #header-top {
-        background-color: whitesmoke;
-    }
-    #header-jumbo {
-        background-color: yellow;
-    }
  }

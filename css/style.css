@@ -4,6 +4,9 @@
   --font-color-base: 0, 0, 0;
   --font-color-light: 255, 255, 255;
 }
+html {
+    font-size: 100%;
+}
 /* header */
 .header {
     background-color: rgba(var(--dark-green-color));
@@ -21,17 +24,23 @@ header.h1 {
 }
 .jumbo .avatar {
     display: inline-block;
-    width: 230px;
-    height: 250px;
-    background-color: lightblue;
+    height: 180px;
+    width: 200px;
+    background-color: red;
 }
 .star::after {
     content: "STELLA";
 }
 /* /jumbo */
-
+.portfolio .image {
+    height: 250px;
+    background-color: blue;
+}
 /* // Small+ devices */
 @media (min-width: 576px) { 
+    html {
+        font-size: 90%;
+    }
     .header {background-color: black;}
     .header h1 {
     font-size: 1em;

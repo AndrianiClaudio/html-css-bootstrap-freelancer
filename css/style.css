@@ -8,6 +8,7 @@
 html {
     font-size: 100%;
     font-family: 'Montserrat', sans-serif;
+    color: var(--font-color-base)
 }
 body {
     overflow-x: hidden;
@@ -25,14 +26,31 @@ a:visited {
     background-color: rgba(var(--dark-green-color));
     color: rgba(var(--font-color-light));
 }
+
+/* h1,h2,h3.... */
+.header h1 {
+    font-weight: 700;
+    font-size: 1.25em;
+}
+.jumbo h2,
+.portfolio h2 {
+    font-weight: 700;
+}
+.jumbo h2 {
+    font-size: 2.5rem;
+}
+.portfolio h2 {
+    font-size: 2rem;
+}
+.jumbo h3 {
+    font-weight: 700;
+    font-size: 1rem;
+}
+/* /h1,h2,h3.... */
 /* header */
 .header {
     height: var(--header-hgt);
     line-height: var(--header-hgt);
-}
-.header h1 {
-    font-weight: 700;
-    font-size: 1.25em;
 }
 .header a:hover {
     color: aquamarine;
@@ -47,26 +65,25 @@ a:visited {
 .jumbo .avatar {
     width: 100%;
 }
-.jumbo h2 {
-    font-weight: 700;
-    font-size: 2.5rem;
-}
+
 .fas.fa-star {
    font-size: 2rem;
 }
+.jumbo .star-line-mini {
+    background-color: rgba(var(--font-color-light));
+}
 .star-line-mini {
     height: 0.3rem;
-    background-color: white;
 }
-.jumbo h3 {
-    font-weight: 700;
-    font-size: 1rem;
+.portfolio .star-line-mini,
+.contact .star-line-mini {
+    background-color: rgba(var(--font-color-base));
 }
+
 /* /jumbo */
 /* portfolio */
 .portfolio .image {
-    height: 250px;
-    background-color: blue;
+    width: 100%;
 }
 /* /portfolio */
 /* about */
@@ -86,10 +103,6 @@ a:visited {
     }
     .fas.fa-star {
    font-size: 2rem;
-    }
-    .star-line-mini {
-        height: 0.3rem;
-        background-color: white;
     }
 }
 /* // Medium+ devices (desktops, 992px and up) */

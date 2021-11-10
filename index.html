@@ -95,7 +95,7 @@
     <!-- /jumbo -->
     <main>
         <!-- portfolio -->
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <div class="container py-4">
                 <div class="row">
                     <!-- titolo -->
@@ -144,7 +144,7 @@
         </section>
         <!-- /portfolio -->
         <!-- about -->
-        <section class="about bg-green">
+        <section class="about bg-green" id="about">
             <div class="container py-4">
                 <div class="row justify-content-center">
                     <div class="col-8 col-sm-9">
@@ -156,13 +156,13 @@
                                 <div class="row pb-2 justify-content-center ">
                                     <div class="col-7">
                                         <div class="row justify-content align-items-center">
-                                            <div class="offset-1 col-4 offset-md-2 col-md-3">
+                                            <div class="col-5 offset-sm-1 col-sm-4 offset-md-2 col-md-3">
                                                 <div class="star-line-mini"></div>
                                             </div>
-                                            <div class="col-2 px-0 mx-0 align-self-end">
+                                            <div class="col-1 col-sm-2 px-0 mx-0 ">
                                                 <i class="filter-invert fas fa-star"></i>
                                             </div>
-                                            <div class="col-4 col-md-3">
+                                            <div class="col-5 col-sm-4 col-md-3">
                                                 <div class="star-line-mini"></div>
                                             </div>
                                         </div>
@@ -181,7 +181,7 @@
                             <div class="col-12 text-center">
                                 <button type="button" class="btn btn-outline-light">
                                     <i class="fas fa-download"></i>
-                                    <span>download</span>
+                                    <span>Download</span>
                                 </button>
                             </div>
                         </div>
@@ -191,25 +191,25 @@
         </section>
         <!-- /about -->
         <!-- contact me -->
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="container py-4">
                 <div class="row justify-content-center">
                     <div class="col-7 col-sm-8">
                         <div class="row pjustify-content-center">
                             <!-- titolo -->
                             <div class="col-12 text-center">
-                                <h3>lorem</h3>
+                                <h3 class="text-uppercase">contact me</h3>
                                 <!-- star -->
                                 <div class="row pb-2 justify-content-center ">
                                     <div class="col-7">
                                         <div class="row justify-content align-items-center">
-                                            <div class="offset-1 col-4 offset-md-2 col-md-3">
+                                            <div class="col-5 offset-sm-1 col-sm-4 offset-md-2 col-md-3">
                                                 <div class="star-line-mini"></div>
                                             </div>
-                                            <div class="col-2 px-0 mx-0 ">
+                                            <div class="col-1 col-sm-2 px-0 mx-0 ">
                                                 <i class="filter-invert fas fa-star"></i>
                                             </div>
-                                            <div class="col-4 col-md-3">
+                                            <div class="col-5 col-sm-4 col-md-3">
                                                 <div class="star-line-mini"></div>
                                             </div>
                                         </div>
@@ -225,25 +225,24 @@
                                     <div class="form-group pb-2">
                                         <input type="text"
                                             class="form-control pb-3 border-bottom-width-1 border-top-0 border-start-0 border-end-0"
-                                            id="InputName" placeholder="Enter name">
+                                            id="InputName" placeholder="Name">
                                     </div>
                                     <!-- email -->
                                     <div class="form-group pb-2">
                                         <input type="email"
                                             class="form-control pb-3 border-top-0 border-start-0 border-end-0"
-                                            id="InputEmail" placeholder="Enter email">
+                                            id="InputEmail" placeholder="Email Address">
                                     </div>
                                     <!-- telefono -->
                                     <div class="form-group  pb-2">
-                                        <input type="number"
+                                        <input type="tel"
                                             class="form-control pb-3 border-top-0 border-start-0 border-end-0"
-                                            id="InputPhone" placeholder="Enter phone">
+                                            id="InputPhone" placeholder="Phone Number" minlength="10" maxlength="10">
                                     </div>
                                     <!-- messaggio -->
                                     <div class="form-group pb-2">
-                                        <label for="message"></label>
-                                        <textarea class="w-100 border-top-0 border-start-0 border-end-0" id="message"
-                                            rows="6"></textarea>
+                                        <label for="InputMessage"></label>
+                                        <textarea class="w-100 border-top-0 border-start-0 border-end-0" id="InputMessage" placeholder="Message" rows="6"></textarea>
                                     </div>
                                     <button type="submit" class="btn btn-primary align-self-start">Submit</button>
 

@@ -7,6 +7,9 @@
 html {
     font-size: 100%;
 }
+.bg-green {
+  background-color: rgb(var(--green-color));
+}
 /* header */
 .header {
     background-color: rgba(var(--dark-green-color));
@@ -32,10 +35,17 @@ header.h1 {
     content: "STELLA";
 }
 /* /jumbo */
+/* portfolio */
 .portfolio .image {
     height: 250px;
     background-color: blue;
 }
+/* /portfolio */
+/* about */
+.about {
+    color: rgba(var(--font-color-light));
+}
+/* /about */      
 /* // Small+ devices */
 @media (min-width: 576px) { 
     .header {background-color: black;}

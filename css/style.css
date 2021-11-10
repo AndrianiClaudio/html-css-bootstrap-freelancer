@@ -24,7 +24,7 @@ header.h1 {
 /* /header */
 /* jumbo */
 .jumbo {
-    background-color: rgb(var(--green-color));
+    background-color: rgb(var(--green-color))
     color: rgba(var(--font-color-light));
     text-transform: uppercase;
 }

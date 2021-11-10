@@ -144,23 +144,26 @@
                             <!-- contenuto -->
                             <div class="col-12">
                                 <!-- form -->
-                                <form>
+                                <form class="d-flex flex-column">
                                     <!-- nome -->
-                                    <div class="form-group ">
-                                        <input type="email" class="form-control border-top-0 border-start-0 border-end-0" id="InputEmail" aria-describedby="emailHelp"
-                                            placeholder="Enter email">
+                                    <div class="form-group pb-2">
+                                        <input type="text" class="form-control-lg border-top-0 border-start-0 border-end-0" id="InputName"  placeholder="Enter name">
                                     </div>
                                     <!-- email -->
-                                    <div class="form-group ">
-                                        <input type="email" class="form-control border-top-0 border-start-0 border-end-0" id="InputEmail" aria-describedby="emailHelp"
-                                            placeholder="Enter email">
+                                    <div class="form-group pb-2">
+                                        <input type="email" class="form-control-lg border-top-0 border-start-0 border-end-0" id="InputEmail" placeholder="Enter email">
                                     </div>
                                     <!-- telefono -->
-                                    <div class="form-group ">
-                                        <input type="email" class="form-control border-top-0 border-start-0 border-end-0" id="InputEmail" aria-describedby="emailHelp"
-                                            placeholder="Enter email">
+                                    <div class="form-group  pb-2">
+                                        <input type="number" class="form-control-lg border-top-0 border-start-0 border-end-0" id="InputPhone" placeholder="Enter phone">
                                     </div>
-                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                    <!-- messaggio -->
+                                    <div class="form-group pb-2">
+                                        <label for="message"></label>
+                                        <textarea class="w-100 border-top-0 border-start-0 border-end-0" id="message" rows="6"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary align-self-start">Submit</button>
+                                    
                                 </form>
                             </div>
                         </div>

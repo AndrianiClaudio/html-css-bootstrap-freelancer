@@ -1,81 +1,21 @@
 :root {
-    --header-top-color: #2C3E50;
-    --header-jumbo-color: #1ABC9C;
-    --footer-info-color: #3A546D;
-    --footer-copyright-color: #2C3E50;
-    /* size */
-    --jumbo-height: 400px;
+  --green-color: 26, 188, 156;
+  --dark-green-color: 44, 62, 80;
+  --font-color-base: 0, 0, 0;
+  --font-color-light: 255, 255, 255;
 }
-
-/* blocchi colorati */
-.pink {
-    background-color: pink;
+.header {
+    background-color: rgba(var(--dark-green-color), 1);
+    color: rgba(var(--font-color-light), 1);
 }
-.silver{
-    background-color: silver
+h1 {
+    font-size: 1em;
 }
-.blue {
-    background-color: lightblue;
+/* // Small+ devices */
+@media (min-width: 576px) { 
+    .header {background-color: black;}
 }
-.fucsia {
-    background-color: fuchsia;
-}
-.gold {
-    background-color: gold;
-    border: 1px solid black;
-}
-.hgt-350 {
-    height: 350px;
-}
-.hgt-80vh {
-    height: 80vh;
-}
-.hgt-50 {
-    height: 50px;
-}
-.hgt-180 {
-    height: 180px;
-}
-.hMin100px {
-    min-height: 100px;
-}
-.img-portfolio {
-    min-height: 320px;
-}
-/* /blocchi colorati */
-.container-fluid {
-    /* rimozione padding */
-    padding-left: 0;
-    padding-right: 0;
-}
-
-
-header,
-main,
-footer {
-    width: 100%;
-    overflow-x: hidden;
-}
-#header-top {
-    background-color: var(--header-top-color);
-    /* min-width: 400px; */
-}
-#header-jumbo {
-    height: var(--jumbo-height);
-    min-width: 400px;
-    background-color: var(--header-jumbo-color);
-}
-
-/* // Medium devices (tablets, 768px and up) */
+/* // Medium+ devices (desktops, 992px and up) */
 @media (min-width: 768px) { 
-    #header-jumbo {
-        /* ingrandimento jumbo */
-        height: calc(var(--jumbo-height) + 50px);
-    }
-    #test > div {
-        margin-right: 3rem;
-    }
-}
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+    .header {background-color: red;}
  }

@@ -1,104 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freelance</title>
-    <!-- bootstrap css -->
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- BOOTSTRAP CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- user css -->
+    <!-- USER CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class="container-fluid">
-        <header>
-            <!-- header-top -->
-            <div class="row align-items-center  hgt-50" id="header-top">
-                <!-- start bootstrap -->
-                <div class="col-5 offset-md-1 col-md-3 offset-lg-3 col-lg-2 pink">Lorem ipsum dolor sit.</div>
-                <!-- sm: menu a comparsa 
-                    md: menu inline centrato  
-                -->
-                <div class="offset-6 col-1 offset-md-4 col-md-3 offset-lg-3 col-lg-2 pink">...</div>
-            </div>
-            <!-- header-jumbo -->
-            <div class="row flex-column text-center justify-content-center align-items-center" id="header-jumbo">
-                <!-- foto -->
-                <div class="col-4 col-md-3 col-lg-2 my-2 hgt-180 silver"></div>    
-                <!-- start bootstrap -->   
-                <div class="col-6 col-md-5 col-lg-4 my-3 fucsia">
-                    Lorem ipsum dolor sit.
-                </div>
-                <!-- star -->
-                <div class="col-5 col-md-4 col-lg-3 gold">
-                    Lorem ipsum dolor sit.
-                </div>
-                <!-- inine menu -->
-                <div class="col-10 col-md-8 col-lg-6 my-3 pink">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-            </div>
-        </header>
-        <main>
-            <!-- sm: allineamento colonna 1 img
-            md: allienamento colonna 2 img
-            lg: allineamento colonna 3 img 
-            -->
-            <!-- portfolio -->
-            <header>
-                <div class="row flex-column align-items-center text-center silver mt-4 mb-3">
-                    <!-- titolo -->
-                    <div class="col-3 gold mb-3">titolo</div>
-                    <!-- star -->
-                    <div class="col-4 pink">star</div>
-                    <!-- about -->
-                </div>
-            </header>
-            <!-- contenitore immagini portfolio -->
-            <div class="row justify-content-center mx-3">
-                <div class="col-12 mb-3 img-portfolio gold"></div>
-                <div class="col-12 mb-3 img-portfolio gold"></div>
-                <div class="col-12 mb-3 img-portfolio gold"></div>
-                <div class="col-12 mb-3 img-portfolio gold"></div>
-                <div class="col-12 mb-3 img-portfolio gold"></div>
-                <div class="col-12 mb-3 img-portfolio gold"></div>
-            </div>
-            <!-- about -->
-            <div class="row flex-column justify-content-center align-items-center .hMin100px mt-5 pt-5 pb-3 mb-5 pink">
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <div class="row py-3">
                 <!-- titolo -->
-                <div class="col-2 blue mb-4">Lorem, ipsum dolor sit amet.</div>
-                <!-- star -->
-                <div class="col-3 gold mb-4">
-                    Lorem ipsum dolor sit.
+                <div class="col-6">
+                    <h1>Lorem ipsum</h1>
                 </div>
-                <!-- text -->
-                <div class="col-8 silver mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, veritatis possimus libero aperiam laudantium animi facere earum delectus quam quia! Nulla commodi earum, eveniet porro vel quidem consequatur vitae dolorum.</div>
-                <div class="col-8 mb-5 silver">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, veritatis possimus libero aperiam laudantium animi facere earum delectus quam quia! Nulla commodi earum, eveniet porro vel quidem consequatur vitae dolorum.</div>
-                <!-- download -->
-                <div class="col-4 fucsia">lorem</div>
-            </div>
-            <!-- contact me -->
-            <div class="row flex-column justify-content-center align-items-center .hMin100px mt-5 pt-5 pb-3 mb-5 pink">
-                <!-- titolo -->
-                <div class="col-3 blue mb-4">Lorem, ipsum dolor sit amet.</div>
-                <!-- star -->
-                <div class="col-2 fucsia mb-4">
-                    Lorem ipsum dolor sit.
+                <!-- xs:bars -->
+                <div class="col-6 text-end d-sm-none">
+                    <i class="fas fa-bars"></i>
                 </div>
-                <!-- form -->
-                <div class="row w-50  align-items-center flex-column">
-                    <div class="col-12 pb-3 border-bottom border-secondary silver">lorem</div>
-                    <div class="col-12 pb-3 border-bottom border-secondary silver">lorem</div>
-                    <div class="col-12 pb-3 border-bottom border-secondary mb-5 silver">lorem</div>
-                    <div class="col-12 mt-5 pt-3 border-bottom border-secondary mb-3 silver"></div>
-                    <div class="col-3 align-self-start gold">lorem</div>
+                <!-- sm:inline-list -->
+                <div class="col-6 text-end d-none d-sm-block">
+                    <ul class="nav-menu list-inline mb-0">
+                        <li class="list-inline-item">link</li>
+                        <li class="list-inline-item">link</li>
+                        <li class="list-inline-item">link</li>
+                    </ul>
                 </div>
             </div>
-        </main>
-        <footer>
-        <!-- copyright -->
-        </footer>
+        </div>
+    </header>
+    <!-- /header -->
+
+    <!-- header-jumbo -->
+    <div class="row flex-column text-center justify-content-center align-items-center" id="header-jumbo">
+        <!-- foto -->
+        <div class="col-4 col-md-3 col-lg-2 my-2 hgt-180 silver"></div>
+        <!-- start bootstrap -->
+        <div class="col-6 col-md-5 col-lg-4 my-3 fucsia">
+            Lorem ipsum dolor sit.
+        </div>
+        <!-- star -->
+        <div class="col-5 col-md-4 col-lg-3 gold">
+            Lorem ipsum dolor sit.
+        </div>
+        <!-- inine menu -->
+        <div class="col-10 col-md-8 col-lg-6 my-3 pink">Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </div>
     </div>
+    <main>
+        <!-- sm: allineamento colonna 1 img
+        md: allienamento colonna 2 img
+        lg: allineamento colonna 3 img 
+        -->
+        <!-- portfolio -->
+        <header>
+            <div class="row flex-column align-items-center text-center silver mt-4 mb-3">
+                <!-- titolo -->
+                <div class="col-3 gold mb-3">titolo</div>
+                <!-- star -->
+                <div class="col-4 pink">star</div>
+                <!-- about -->
+            </div>
+        </header>
+        <!-- contenitore immagini portfolio -->
+        <div class="row justify-content-center mx-3">
+            <div class="col-12 mb-3 img-portfolio gold"></div>
+            <div class="col-12 mb-3 img-portfolio gold"></div>
+            <div class="col-12 mb-3 img-portfolio gold"></div>
+            <div class="col-12 mb-3 img-portfolio gold"></div>
+            <div class="col-12 mb-3 img-portfolio gold"></div>
+            <div class="col-12 mb-3 img-portfolio gold"></div>
+        </div>
+        <!-- about -->
+        <div class="row flex-column justify-content-center align-items-center .hMin100px mt-5 pt-5 pb-3 mb-5 pink">
+            <!-- titolo -->
+            <div class="col-2 blue mb-4">Lorem, ipsum dolor sit amet.</div>
+            <!-- star -->
+            <div class="col-3 gold mb-4">
+                Lorem ipsum dolor sit.
+            </div>
+            <!-- text -->
+            <div class="col-8 silver mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, veritatis
+                possimus libero aperiam laudantium animi facere earum delectus quam quia! Nulla commodi earum,
+                eveniet porro vel quidem consequatur vitae dolorum.</div>
+            <div class="col-8 mb-5 silver">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, veritatis
+                possimus libero aperiam laudantium animi facere earum delectus quam quia! Nulla commodi earum,
+                eveniet porro vel quidem consequatur vitae dolorum.</div>
+            <!-- download -->
+            <div class="col-4 fucsia">lorem</div>
+        </div>
+        <!-- contact me -->
+        <div class="row flex-column justify-content-center align-items-center .hMin100px mt-5 pt-5 pb-3 mb-5 pink">
+            <!-- titolo -->
+            <div class="col-3 blue mb-4">Lorem, ipsum dolor sit amet.</div>
+            <!-- star -->
+            <div class="col-2 fucsia mb-4">
+                Lorem ipsum dolor sit.
+            </div>
+            <!-- form -->
+            <div class="row w-50  align-items-center flex-column">
+                <div class="col-12 pb-3 border-bottom border-secondary silver">lorem</div>
+                <div class="col-12 pb-3 border-bottom border-secondary silver">lorem</div>
+                <div class="col-12 pb-3 border-bottom border-secondary mb-5 silver">lorem</div>
+                <div class="col-12 mt-5 pt-3 border-bottom border-secondary mb-3 silver"></div>
+                <div class="col-3 align-self-start gold">lorem</div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- copyright -->
+    </footer>
 </body>
+
 </html>

@@ -22,11 +22,11 @@
 
 <body>
     <!-- header -->
-    <header class="header text-uppercase">
+    <header class="header w-100 position-fixed text-uppercase">
         <div class="container">
-            <div class="row py-4 align-items-center">
+            <div class="row align-items-center">
                 <!-- titolo -->
-                <div class="col-9 col-sm-5">
+                <div class="col-9 col-sm-6">
                     <h1 class="m-0">start bootstrap</h1>
                 </div>
                 <!-- xs:bars -->
@@ -34,16 +34,22 @@
                     <i class="fas fa-bars"></i>
                 </div>
                 <!-- sm:inline-list -->
-                <div class="col-7 text-end d-none d-sm-block">
+                <div class="col-7 col-sm-6 text-end d-none d-sm-block">
                     <ul class="nav-menu list-inline mb-0 ">
                         <li class="list-inline-item ">
-                            portfolio
+                            <a class="text-decoration-none" href="#portfolio">
+                                portfolio
+                            </a>
                         </li>
                         <li class="list-inline-item">
-                            about
+                            <a class="text-decoration-none" href="#about">
+                                about
+                            </a>
                         </li>
                         <li class="list-inline-item">
-                            contact
+                            <a class="text-decoration-none" href="#contact">
+                                contact
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -56,7 +62,12 @@
         <div class="container py-4">
             <div class="row text-center">
                 <div class="col-12">
-                    <div class="avatar">
+                    <div class="row justify-content-center">
+                        <div class="col-7 col-sm-6 col-md-4">
+                            <div class="avatar">
+                                <img src="img/avatar.svg" alt="">
+                            </div>
+                        </div>
                     </div>
                     <h2>Lorem Ipsum</h2>
                     <div class="star"></div>

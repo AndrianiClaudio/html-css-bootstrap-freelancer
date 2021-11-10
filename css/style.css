@@ -3,12 +3,20 @@
   --dark-green-color: 44, 62, 80;
   --font-color-base: 0, 0, 0;
   --font-color-light: 255, 255, 255;
+  --header-hgt: 85px;
 }
 html {
     font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 body {
     overflow-x: hidden;
+}
+a,
+a:active,
+a:hover,
+a:visited {
+    color: white;
 }
 .bg-green {
   background-color: rgb(var(--green-color));
@@ -18,19 +26,25 @@ body {
     color: rgba(var(--font-color-light));
 }
 /* header */
-header.h1 {
+.header {
+    height: var(--header-hgt);
+    line-height: var(--header-hgt);
+}
+.header h1 {
     font-size: 1em;
+}
+.header a:hover {
+    color: aquamarine;
 }
 /* /header */
 /* jumbo */
 .jumbo {
+    padding-top: var(--header-hgt);
     background-color: rgb(var(--green-color));
     color: rgba(var(--font-color-light));
 }
 .jumbo .avatar {
-    display: inline-block;
-    height: 180px;
-    width: 200px;
+    width: 100%;
     background-color: red;
 }
 .star::after {
@@ -55,10 +69,13 @@ header.h1 {
 /* /footer  */
 /* // Small+ devices */
 @media (min-width: 576px) { 
-    .header h1 {
-    font-size: 1em;
-  }
+    html {
+        font-size: 105%;
+    }
 }
 /* // Medium+ devices (desktops, 992px and up) */
 @media (min-width: 768px) { 
- }
+    html {
+        font-size: 110%;
+    }
+}

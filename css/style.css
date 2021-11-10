@@ -26,7 +26,6 @@ header.h1 {
 .jumbo {
     background-color: rgb(var(--green-color));
     color: rgba(var(--font-color-light));
-    text-transform: uppercase;
 }
 .jumbo .avatar {
     display: inline-block;
@@ -56,12 +55,10 @@ header.h1 {
 /* /footer  */
 /* // Small+ devices */
 @media (min-width: 576px) { 
-    .header {background-color: black;}
     .header h1 {
     font-size: 1em;
   }
 }
 /* // Medium+ devices (desktops, 992px and up) */
 @media (min-width: 768px) { 
-    .header {background-color: red;}
  }

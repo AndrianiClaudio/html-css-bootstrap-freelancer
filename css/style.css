@@ -1,6 +1,7 @@
 :root {
   --green-color: 26, 188, 156;
   --dark-green-color: 44, 62, 80;
+  --dark-blue-color: 58, 84, 109;
   --font-color-base: 0, 0, 0;
   --font-color-light: 255, 255, 255;
   --header-hgt: 85px;
@@ -26,7 +27,6 @@ a:visited {
     background-color: rgba(var(--dark-green-color));
     color: rgba(var(--font-color-light));
 }
-
 /* h1,h2,h3.... */
 .header h1 {
     font-weight: 700;
@@ -87,8 +87,9 @@ a:visited {
 }
 /* /about */     
 /* footer  */
-.footer-top {
-    background-color: blue;
+.footer-top,
+.footer-top a {
+    background-color: rgba(var(--dark-blue-color));
 }
 /* /footer  */
 /* // Small+ devices */

@@ -58,6 +58,10 @@ a:visited {
     height: 0.3rem;
     background-color: white;
 }
+.jumbo h3 {
+    font-weight: 700;
+    font-size: 1rem;
+}
 /* /jumbo */
 /* portfolio */
 .portfolio .image {
@@ -79,6 +83,13 @@ a:visited {
 @media (min-width: 576px) { 
     html {
         font-size: 105%;
+    }
+    .fas.fa-star {
+   font-size: 2rem;
+    }
+    .star-line-mini {
+        height: 0.3rem;
+        background-color: white;
     }
 }
 /* // Medium+ devices (desktops, 992px and up) */

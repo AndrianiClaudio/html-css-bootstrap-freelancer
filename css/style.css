@@ -126,6 +126,14 @@ a:visited {
 .footer-top a {
     background-color: rgba(var(--dark-blue-color));
 }
+.footer-top i,
+.footer-top i g::before {
+    height: 30px;
+    width: 30px;
+}
+.footer-top .btn-group {
+    flex-wrap: wrap;
+}
 .footer-bottom {
     font-size: 0.8em;
 }

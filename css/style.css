@@ -56,7 +56,7 @@ a:visited {
     line-height: var(--header-hgt);
 }
 .header a:hover {
-    color: aquamarine;
+    color: rgba(var(--green-color));
 }
 /* /header */
 /* jumbo */
@@ -80,8 +80,40 @@ a:visited {
 
 /* /jumbo */
 /* portfolio */
-.portfolio img {
+.portfolio .image {
     width: 100%;
+}
+.image-container .image:hover {
+    cursor: pointer;
+}
+.image-container {
+    position: relative;
+}
+.image-container i {
+    display: none;
+}
+.image-container:hover i {
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.image-container:hover .image {
+    display: none;
+}
+.image-container:hover .image {
+    background-color: rgba(var(--green-color));
+}
+.image-container .bg-green {
+    display: none;
+}
+.image-container:hover .bg-green {
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 /* /portfolio */
 /* about */

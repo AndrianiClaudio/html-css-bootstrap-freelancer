@@ -21,7 +21,10 @@ a:visited {
     color: white;
 }
 .bg-green {
-  background-color: rgb(var(--green-color));
+  background-color: rgba(var(--green-color));
+}
+.text_green {
+    background-color: rgba(var(--green-color));
 }
 .header,.footer-bottom {
     background-color: rgba(var(--dark-green-color));
@@ -91,7 +94,9 @@ a:visited {
 .footer-top a {
     background-color: rgba(var(--dark-blue-color));
 }
-/* /footer  */
+.footer-bottom {
+    font-size: 0.8em;
+}
 /* // Small+ devices */
 @media (min-width: 576px) { 
     html {
